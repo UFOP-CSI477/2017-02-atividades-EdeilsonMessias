@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CADASTRO</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+	<div class="container">
+		<div class="col-sm-12">
+			<img src="img/ufoplogo.jpg">
+		</div>
+		<div class="col-sm-8">
+			<br>
+			<a href="index.html" type="button" class="btn btn-danger">Voltar</a>
+			<br><br>
+			<form action="sucessoCadastro.html" method="post">
+				<div class="form-group row">
+					<label for="matricula" class="col-sm-2 col-form-label">Matrícula</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="matricula">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="nome" class="col-sm-2 col-form-label">Nome</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="nome">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="rua" class="col-sm-2 col-form-label">Rua</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="rua">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="numero" class="col-sm-2 col-form-label">Número</label>
+					<div class="col-sm-6">
+						<input type="number" class="form-control" name="numero">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="complemento" class="col-sm-2 col-form-label">Complemento</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="complemento">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="cidade" class="col-sm-2 col-form-label">Cidade</label>
+					<div class="col-sm-6">
+						<select class="form-control" name="cidade">
+					      <option>Alvinópolis/MG</option>
+					      <option>Belo Horizonte/MG</option>
+					      <option>Ipatinga/MG</option>
+					      <option>Itabira/MG</option>
+					      <option>João Monlevade/MG</option>
+					    </select>
+					</div>
+				</div>
+				<fieldset class="form-group row">
+					<legend class="col-form-legend col-sm-2">Sexo</legend>
+					<div class="col-sm-6">
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="sexo" value="F">
+								Feminino
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="sexo" value="M">
+								Masculino
+							</label>
+						</div>
+					</div>
+				</fieldset>
+				<div class="form-group row">
+					<label for="rg" class="col-sm-2 col-form-label">RG</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="rg">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="cpf" class="col-sm-2 col-form-label">CPF</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="cpf">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="sangue" class="col-sm-2 col-form-label">Tipo Sanguíneo</label>
+					<div class="col-sm-6">
+						<select class="form-control" name="sangue">
+					      <option>A+</option>
+					      <option>A-</option>
+					      <option>B+</option>
+					      <option>B-</option>
+					      <option>AB+</option>
+					      <option>AB-</option>
+					      <option>O+</option>
+					      <option>O-</option>
+					    </select>
+					</div>
+				</div>
+				<fieldset class="form-group row">
+					<legend class="col-form-legend col-sm-2">Fator RH</legend>
+					<div class="col-sm-6">
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="sexo" value="F">
+								Rh+
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="sexo" value="M">
+								Rh-
+							</label>
+						</div>
+					</div>
+				</fieldset>
+				<div class="form-group row">
+					<label for="telefone" class="col-sm-2 col-form-label">Telefone</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="telefone">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="celular" class="col-sm-2 col-form-label">Celular</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="celular">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="email" class="col-sm-2 col-form-label">E-mail</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="email">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="senha" class="col-sm-2 col-form-label">Senha</label>
+					<div class="col-sm-6">
+						<input type="password" class="form-control" name="senha">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="cpf" class="col-sm-2 col-form-label">Confirmar Senha</label>
+					<div class="col-sm-6">
+						<input type="password" class="form-control" name="cpf">
+					</div>
+				</div>
+				<div class="form-group row">
+				    <label class="col-sm-2">Acessos</label>
+				    <div class="col-sm-6">
+				      <div class="form-check">
+				        <label class="form-check-label">
+				          <input name="acesso1" class="form-check-input" type="checkbox"> Biblioteca<br>
+				          <input name="acesso2" class="form-check-input" type="checkbox"> Campo<br>
+				          <input name="acesso3" class="form-check-input" type="checkbox"> Clube<br>
+				          <input name="acesso4" class="form-check-input" type="checkbox"> Restaurante<br>
+				        </label>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="form-group row">
+				    <div class="col-sm-10">
+				      <button type="submit" class="btn btn-danger">Enviar</button>
+				      <button type="reset" class="btn btn-danger">Limpar</button>
+				    </div>
+				  </div>
+			</form>
+		</div>
+		<div class="col-sm-12">
+	    	<footer class="footer">
+    			<h6 class="text-muted">Universidade Federal de Ouro Preto</h6>
+    			<h6 class="text-muted">Edeilson Carlos Messias</h6>
+    			<h6 class="text-muted">15.1.5954</h6>
+    			<h6 class="text-muted">edeilsoncm@hotmail.com</h6>
+	    	</footer>
+	    </div>
+	</div>
+</body>
+</html>

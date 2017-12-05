@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MATRÍCULA</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+	<div class="container">
+		<div class="col-sm-12">
+			<img src="img/ufoplogo.jpg">
+		</div>
+		<div class="col-sm-8">
+			<br>
+			<a href="index.html" type="button" class="btn btn-danger">Voltar</a>
+			<br><br>
+			<form action="sucessoMatricula.html" method="post">
+				<div class="form-group row">
+					<label for="semestre" class="col-sm-2 col-form-label">Ano/Semestre</label>
+					<div class="col-sm-6">
+						<select class="form-control" name="semestre">
+					      <option>Selecione</option>
+					      <option>2017/2</option>
+					      <option>2017/1</option>
+					      <option>2016/2</option>
+					      <option>2016/1</option>
+					      <option>2015/2</option>
+					      <option>2015/1</option>
+					    </select>
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="aluno" class="col-sm-2 col-form-label">Aluno</label>
+					<div class="col-sm-6">
+						<select class="form-control" name="aluno">
+					      <option>Selecione</option>
+					      <option>Carla Sanches</option>
+					      <option>Edeilson Carlos Messias</option>
+					      <option>José Wilson Silva Júnior</option>
+					      <option>Silvandro Sérgio Martins Oliveira</option>
+					    </select>
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="disciplina" class="col-sm-2 col-form-label">Disciplina</label>
+					<div class="col-sm-6">
+						<select class="form-control" name="disciplina">
+					      <option>Selecione</option>
+					      <option>Interação Humano-Computador</option>
+					      <option>Gerência de Projetos de Software</option>
+					      <option>Linguagens de Programação</option>
+					      <option>Sistemas Distribuídos</option>
+					      <option>Sistemas WEB</option>
+					    </select>
+					</div>
+				</div>
+				<fieldset class="form-group row">
+					<legend class="col-form-legend col-sm-2">Aluno</legend>
+					<div class="col-sm-6">
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="tipoaluno" value="F">
+								Ouvinte
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="tipoaluno" value="M">
+								Regular
+							</label>
+						</div>
+					</div>
+				</fieldset>
+				  <div class="form-group row">
+				    <div class="col-sm-10">
+				      <button type="submit" class="btn btn-danger">Enviar</button>
+				      <button type="reset" class="btn btn-danger">Limpar</button>
+				    </div>
+				  </div>
+			</form>
+		</div>
+		<div class="col-sm-12">
+	    	<footer class="footer">
+    			<h6 class="text-muted">Universidade Federal de Ouro Preto</h6>
+    			<h6 class="text-muted">Edeilson Carlos Messias</h6>
+    			<h6 class="text-muted">15.1.5954</h6>
+    			<h6 class="text-muted">edeilsoncm@hotmail.com</h6>
+	    	</footer>
+	    </div>
+	</div>
+</body>
+</html>

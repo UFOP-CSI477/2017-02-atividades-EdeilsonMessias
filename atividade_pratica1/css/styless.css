@@ -1,0 +1,27 @@
+.amarelo {
+    background-color: #F0E68C;
+    color: white;
+}
+
+.cinza {
+	background-color: #D3D3D3;
+}
+
+.azul {
+	background-color: #0000FF;
+	color: white;
+}
+
+.azulmarinho {
+	background-color: #ADD8E6;
+}
+
+
+
+.azulmarinhoclaro {
+	background-color: #F0FFFF;
+}
+
+.borda {
+	border-color: #6495ED;
+}
