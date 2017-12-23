@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Atividade didática para criança</title>
+	<link rel="stylesheet" type="text/css" href="../atividade_pratica1/css/bootstrap.css">
+	<script type="text/javascript" src="jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="didatica.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1 class="jumbotron text-center alert-info">
+			Selecione a opção que não pertence a cada um dos grupos abaixo:
+		</h1>
+		<div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">Grupo 1</h3>
+            </div>
+            <div class="panel-body">
+				<div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link1" href="#">
+				        <img src="./img/arroz.jpg" alt="Lights" style="width:100%">
+				        <div class="caption">
+				          <p>Arroz</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado1" class="alert alert-danger" style="display: none">
+				    	<p>Opção inválida, tente novamente!</p>
+				    </div>
+				  </div>
+				  <div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link2" href="#">
+				        <img src="./img/sabonete.jpg" alt="Nature" style="width:100%">
+				        <div class="caption">
+				          <p>Sabonete</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado2" class="alert alert-success" style="display: none">
+				    	<p>Parabéns! Opção Correta!</p>
+				    </div>
+				  </div>
+				  <div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link3" href="#">
+				        <img src="./img/feijao.jpg" alt="Fjords" style="width:100%">
+				        <div class="caption">
+				          <p>Feijão</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado3" class="alert alert-danger" style="display: none">
+				    	<p>Opção inválida, tente novamente!</p>
+				    </div>
+				  </div>
+				  <div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link4" href="#">
+				        <img src="./img/batata.jpg" alt="Fjords" style="width:100%">
+				        <div class="caption">
+				          <p>Batata</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado4" class="alert alert-danger" style="display: none">
+				    	<p>Opção inválida, tente novamente!</p>
+				    </div>
+				</div>
+			</div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Grupo 2</h3>
+            </div>
+            <div class="panel-body">
+				<div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link5" href="#">
+				        <img src="./img/bicicleta.jpg" alt="Lights" style="width:100%">
+				        <div class="caption">
+				          <p>Bicicleta</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado5" class="alert alert-danger" style="display: none">
+				    	<p>Opção inválida, tente novamente!</p>
+				    </div>
+				  </div>
+				  <div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link6" href="#">
+				        <img src="./img/carro.jpg" alt="Nature" style="width:100%">
+				        <div class="caption">
+				          <p>Carro</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado6" class="alert alert-danger" style="display: none">
+				    	<p>Opção inválida, tente novamente!</p>
+				    </div>
+				  </div>
+				  <div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link7" href="#">
+				        <img src="./img/algodao_doce.jpg" alt="Fjords" style="width:100%">
+				        <div class="caption">
+				          <p>Algodão doce</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado7" class="alert alert-success" style="display: none">
+				    	<p>Parabéns! Opção Correta!</p>
+				    </div>
+				  </div>
+				  <div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link8" href="#">
+				        <img src="./img/moto.jpg" alt="Fjords" style="width:100%">
+				        <div class="caption">
+				          <p>Moto</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado8" class="alert alert-danger" style="display: none">
+				    	<p>Opção inválida, tente novamente!</p>
+				    </div>
+				</div>
+			</div>
+        </div>
+        <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Grupo 3</h3>
+            </div>
+            <div class="panel-body">
+				<div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link9" href="#">
+				        <img src="./img/oculos.jpg" alt="Lights" style="width:100%">
+				        <div class="caption">
+				          <p>Óculos</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado9" class="alert alert-danger" style="display: none">
+				    	<p>Opção inválida, tente novamente!</p>
+				    </div>
+				  </div>
+				  <div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link10" href="#">
+				        <img src="./img/cadeira_de_praia.jpg" alt="Nature" style="width:100%">
+				        <div class="caption">
+				          <p>Cadeira de praia</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado10" class="alert alert-danger" style="display: none">
+				    	<p>Opção inválida, tente novamente!</p>
+				    </div>
+				  </div>
+				  <div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link11" href="#">
+				        <img src="./img/sombrinha.jpg" alt="Fjords" style="width:100%">
+				        <div class="caption">
+				          <p>Sombrinha</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado11" class="alert alert-success" style="display: none">
+				    	<p>Parabéns! Opção Correta!</p>
+				    </div>
+				  </div>
+				  <div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link12" href="#">
+				        <img src="./img/maquina_de_lavar.jpg" alt="Fjords" style="width:100%">
+				        <div class="caption">
+				          <p>Máquina de lavar</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado12" class="alert alert-danger" style="display: none">
+				    	<p>Opção inválida, tente novamente!</p>
+				    </div>
+				</div>
+			</div>
+        </div>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Grupo 4</h3>
+            </div>
+            <div class="panel-body">
+				<div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link13" href="#">
+				        <img src="./img/bola.jpg" alt="Lights" style="width:100%">
+				        <div class="caption">
+				          <p>Bola</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado13" class="alert alert-danger" style="display: none">
+				    	<p>Opção inválida, tente novamente!</p>
+				    </div>
+				  </div>
+				  <div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link14" href="#">
+				        <img src="./img/skate.jpg" alt="Nature" style="width:100%">
+				        <div class="caption">
+				          <p>Skate</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado14" class="alert alert-danger" style="display: none">
+				    	<p>Opção inválida, tente novamente!</p>
+				    </div>
+				  </div>
+				  <div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link15" href="#">
+				        <img src="./img/patins.jpg" alt="Fjords" style="width:100%">
+				        <div class="caption">
+				          <p>Patins</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado15" class="alert alert-success" style="display: none">
+				    	<p>Parabéns! Opção Correta!</p>
+				    </div>
+				  </div>
+				  <div class="col-md-3">
+				    <div class="thumbnail">
+				      <a id="link16" href="#">
+				        <img src="./img/chave_de_fenda.jpg" alt="Fjords" style="width:100%">
+				        <div class="caption">
+				          <p>Chave de fenda</p>
+				        </div>
+				      </a>
+				    </div>
+				    <div id="resultado16" class="alert alert-danger" style="display: none">
+				    	<p>Opção inválida, tente novamente!</p>
+				    </div>
+				</div>
+			</div>
+        </div>
+        <h1 class="jumbotron text-center alert-info">
+			Relacione o nome com a figura geométrica pela sua cor abaixo:
+		</h1>
+		<div class="row">
+			<div class="col-sm-6">
+			  <div class="form-group">
+			    <label for="triangulo">Triângulo</label>
+			    <div id="acerto1" class="alert alert-success" style="display: none">
+			    	<p>Parabéns! Opção Correta!</p>
+			    </div>
+			    <div id="erro1" class="alert alert-danger" style="display: none">
+			    	<p>Opção inválida, tente novamente!</p>
+			    </div>
+			    <select class="form-control" id="triangulo">
+			      <option>Selecione</option>
+			      <option>Amarelo</option>
+			      <option>Azul</option>
+			      <option>Verde</option>
+			      <option>Vermelho</option>
+			    </select>
+			  </div>
+			  <div class="form-group">
+			    <label for="quadrado">Quadrado</label>
+			    <div id="acerto2" class="alert alert-success" style="display: none">
+			    	<p>Parabéns! Opção Correta!</p>
+			    </div>
+			    <div id="erro2" class="alert alert-danger" style="display: none">
+			    	<p>Opção inválida, tente novamente!</p>
+			    </div>
+			    <select class="form-control" id="quadrado">
+			      <option>Selecione</option>
+			      <option>Amarelo</option>
+			      <option>Azul</option>
+			      <option>Verde</option>
+			      <option>Vermelho</option>
+			    </select>
+			  </div>
+			  <div class="form-group">
+			    <label for="circulo">Círculo</label>
+			    <div id="acerto3" class="alert alert-success" style="display: none">
+			    	<p>Parabéns! Opção Correta!</p>
+			    </div>
+			    <div id="erro3" class="alert alert-danger" style="display: none">
+			    	<p>Opção inválida, tente novamente!</p>
+			    </div>
+			    <select class="form-control" id="circulo">
+			      <option>Selecione</option>
+			      <option>Amarelo</option>
+			      <option>Azul</option>
+			      <option>Verde</option>
+			      <option>Vermelho</option>
+			    </select>
+			  </div>
+			  <div class="form-group">
+			    <label for="retangulo">Retângulo</label>
+			    <div id="acerto4" class="alert alert-success" style="display: none">
+			    	<p>Parabéns! Opção Correta!</p>
+			    </div>
+			    <div id="erro4" class="alert alert-danger" style="display: none">
+			    	<p>Opção inválida, tente novamente!</p>
+			    </div>
+			    <select class="form-control" id="retangulo">
+			      <option>Selecione</option>
+			      <option>Amarelo</option>
+			      <option>Azul</option>
+			      <option>Verde</option>
+			      <option>Vermelho</option>
+			    </select>
+			  </div>
+			</div>
+			<div class="col-sm-6">
+				<div class="thumbnail">
+			        <img src="./img/figura_geometrica.png" alt="Fjords" style="width:100%">
+			    </div>
+			</div>
+		</div>
+    </div>
+</body>
+</html>
